@@ -1,0 +1,12 @@
+name: workflow de teste
+on: push
+jobs:
+
+  meu-primeiro-job:
+    name: meu primeiro job
+    runs-on: ubuntu-latest
+    steps:
+      - name: meu primeiro step
+        run: echo "printando texto"
+      - name: segundo step
+        run: echo "printando outro texto"
